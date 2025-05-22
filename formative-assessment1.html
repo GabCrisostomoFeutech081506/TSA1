@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory and Web Form</title>
+</head>
+<body style="font-family: Arial;">
+
+    <table border="1" width="60%" cellspacing="0" cellpadding="8">
+        <tr bgcolor="#97C4F1" align="center">
+            <td colspan="6"><b>INVENTORY SYSTEMS</b></td>
+        </tr>
+        <tr bgcolor="lightgray" align="center">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th width="80px">Supplier</th>
+            <th>Date</th>
+            <th>Image</th>
+        </tr>
+        <tr align="center">
+            <td>10001</td>
+            <td>Boy Bawang Adobo (pc)</td>
+            <td>1000</td>
+            <td bgcolor="#E9C96D" rowspan="8"><b>KSK</b></td>
+            <td rowspan="2">5/14/2019</td>
+            <td rowspan="8">
+                <img src="boy bawang.jfif" alt="Boy Bawang" width="150">
+            </td>
+        </tr>
+        <tr align="center">
+            <td>10002</td>
+            <td>Boy Bawang Adobo (pack)</td>
+            <td>200</td>
+        </tr>
+        <tr align="center" bgcolor="lightgray">
+            <td>10003</td>
+            <td>Boy Bawang Garlic (pc)</td>
+            <td>3000</td>
+            <td rowspan="2">5/15/2019</td>
+        </tr>
+        <tr align="center" bgcolor="lightgray">
+            <td>10004</td>
+            <td>Boy Bawang Garlic (pack)</td>
+            <td><font color="red">150</font></td>
+        </tr>
+        <tr align="center">
+            <td>10005</td>
+            <td>Boy Bawang Spicy (pc)</td>
+            <td>4000</td>
+            <td rowspan="2">5/16/2019</td>
+        </tr>
+        <tr align="center">
+            <td>10006</td>
+            <td>Boy Bawang Spicy (pack)</td>
+            <td>240</td>
+        </tr>
+        <tr align="center" bgcolor="lightgray">
+            <td>10007</td>
+            <td>Boy Bawang BBQ (pc)</td>
+            <td>300</td>
+            <td rowspan="2">5/17/2019</td>
+        </tr>
+        <tr align="center" bgcolor="lightgray">
+            <td>10008</td>
+            <td>Boy Bawang BBQ (pack)</td>
+            <td>210</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <div style="font-family: 'Times New Roman';">
+        <h3>Insert Information</h3>
+        <form>
+            <ul type="disc">
+                Your Name*<br>
+                    <input type="text" name="name" required size="60">
+                </li>
+                <br><br>
+                Email*<br>
+                    <input type="email" name="email" required size="60">
+                </li>
+                <br>
+                <br>Contact No.*<br>
+                    <input type="tel" name="contact" required size="30">
+                </li>
+                <br><br>Message<br>
+                    <textarea name="message" rows="4" cols="60"></textarea>
+                </li>
+                <br>
+                    <small>required field*</small><br><br>
+                    <input type="submit" value="Send" style="background-color: #AEC6DF;">
+                </li>
+            </ul>
+        </form>
+    </div>
+
+</body>
+</html>
